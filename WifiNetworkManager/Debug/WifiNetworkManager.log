@@ -1,0 +1,21 @@
+﻿Build started 2/7/2015 9:35:18 AM.
+     1>Project "F:\Paul Linko\wifi-manager-console\WifiNetworkManager\WifiNetworkManager.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\WifiNetworkManager.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\WifiNetworkManager.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt WifiNetworkManager.cpp
+         WifiNetworkManager.cpp
+     1>f:\paul linko\wifi-manager-console\wifinetworkmanager\wifinetworkmanager.cpp(5): warning C4005: 'UNICODE' : macro redefinition
+                 command-line arguments :  see previous definition of 'UNICODE'
+     1>f:\paul linko\wifi-manager-console\wifinetworkmanager\wifinetworkmanager.cpp(5): warning C4603: 'UNICODE' : macro is not defined or definition is different after precompiled header use
+                 Add macro to precompiled header instead of defining here
+                 f:\paul linko\wifi-manager-console\wifinetworkmanager\wifinetworkmanager.cpp(8) : use of precompiled header
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Paul Linko\wifi-manager-console\Debug\WifiNetworkManager.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Paul Linko\wifi-manager-console\Debug\WifiNetworkManager.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Paul Linko\wifi-manager-console\Debug\WifiNetworkManager.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\WifiNetworkManager.obj
+         WifiNetworkManager.vcxproj -> F:\Paul Linko\wifi-manager-console\Debug\WifiNetworkManager.exe
+     1>Done Building Project "F:\Paul Linko\wifi-manager-console\WifiNetworkManager\WifiNetworkManager.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.97
